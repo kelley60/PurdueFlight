@@ -16,6 +16,78 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".mainmenuactivities.GroupChat"
+            android:label="@string/title_activity_group_chat"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.Profile"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.NewsLetter"
+            android:label="@string/title_activity_news_letter"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.PilotReports"
+            android:label="@string/title_activity_pilot_reports"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.SafetyReports"
+            android:label="@string/title_activity_safety_reports"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.Calendar"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.Urgent"
+            android:label="@string/title_activity_urgent"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.PSPChart"
+            android:label="@string/title_activity_pspchart"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mainmenuactivities.DispatchStatus"
+            android:label="@string/title_activity_dispatch_status"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seanmkelley.purdueflight.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
